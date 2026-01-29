@@ -1,10 +1,20 @@
 :root{
-    --cb: black; /*Color de borde.*/
-    --cf: grey; /*Color de fondo.*/
+    --cb: purple; /*Color de borde.*/
+    --cf: violet; /*Color de fondo.*/
 }
 
 html{
     scroll-behavior: smooth;
+    background-color: lightblue;
+}
+
+h1{
+    color: lightblue;
+}
+
+h2,
+h3{
+    color: blue;
 }
 
 body{
@@ -22,6 +32,7 @@ footer{
     padding: 10px;
     border-radius: 20px;
     border: 1px var(--cb) solid;
+    background-color: blueviolet;
 }
 
 header img{
@@ -31,11 +42,19 @@ header img{
 
 button{
     cursor: pointer;
+    transition: 1s;
+    &:hover{
+        scale: 1.2;
+        background-color: purple;
+        border-color: red;
+        color: violet;
+    }
 }
 
 a button{
+    --cb: darkred;
     --cf: red;
-    color: blue;
+    color: darkblue;
 }
 
 img{
@@ -59,6 +78,7 @@ div.redes{
     border: 1px var(--cb) solid;
     border-radius: 15px;
     padding: 10px 0;
+    background-color: var(--cf);
 }
 
 h3,
@@ -102,4 +122,5 @@ section.listado div{
     padding: 10px;
     border-radius: 15px;
     border: var(--cb) 1px solid;
+    background-color: var(--cf);
 }
