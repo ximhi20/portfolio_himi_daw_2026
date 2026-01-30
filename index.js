@@ -93,6 +93,11 @@ const portHimi = {
             titulo: 'Menú de comandos',
             descripcion: 'Una muestra de como se ve el menú de comandos de KHII, puedes pulsar los distintos botones para comprobar como se vería en otros mundos o mientras se selecciona una parte en el juego.',
             url: 'https://codepen.io/Ximhi-20/pen/RNRgRJy'
+        },
+        {
+            titulo: 'Jurassic Park',
+            descripcion: 'Un ejercicio en el que muestro las películas de la saga de Jurassic Park mediante pulsar unos botones para que vayan saliendo de forma ordenada (más uno para que salga una aletoria).',
+            url: 'https://github.com/ximhi20/des_app_web/tree/main/jurassic_park'
         }
     ]
 };
