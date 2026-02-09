@@ -143,7 +143,7 @@ function show(tipo='all'){
         <button id="css" type="button" onclick="show('css')">CSS</button>
         <button id="html" type="button" onclick="show('html')">HTML</button>
         <button id="js" type="button" onclick="show('js')">JS</button>
-        <button id="js" type="button" onclick="show('php')">PHP</button>
+        <button id="php" type="button" onclick="show('php')">PHP</button>
         <button id="all" type="button" onclick="show('all')">General</button>
     `;
     if(tipo != 'all'){
