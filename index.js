@@ -29,7 +29,7 @@ const portHimi = {
             url: 'https://github.com/ximhi20/des_app_web/tree/main/videojuegos'
         },
         {
-            titulo: 'Kingdom Hearts',
+            titulo: 'Kingdom Hearts (de CodePen)',
             descripcion: 'Una página web simple en la que se muestra una descripción sobre distintos aspectos relacionados con Kingdom Hearts.',
             url: 'https://codepen.io/Ximhi-20/pen/WbwgVPY'
         }
@@ -107,8 +107,8 @@ const portHimi = {
     ],
     php: [
         {
-            titulo: 'Kingdom Hearts (sin JS)',
-            descripcion: 'El primer ejercicio en el que hago algo interesante con PHP, en este caso, cree una página con HTML, CSS y JS, tras lo que convertí los arcivos HTML en PHP y eliminé el JS, introduciéndolo como PHP.',
+            titulo: 'Kingdom Hearts (sin JS; de GitHub)',
+            descripcion: 'El primer ejercicio en el que hago algo interesante con PHP, en este caso, creé una página con HTML, CSS y JS, tras lo que convertí los arcivos HTML en PHP y eliminé el JS, introduciéndolo como PHP.',
             url: 'https://github.com/ximhi20/des_app_web/tree/main/kingdom-hearts_sin-js'
         }
     ]
